@@ -10,9 +10,9 @@ const app = express();
 
 app.use(express.json())
 
-app.use(router) // Todas rotas farão parte do projeto
+app.use(router) 
 
-app.use((err: Error, request: Request, response: Response, next: NextFunction) => { // Middleware para tratar error.Tudo que estiver utilizando o "throw new" vai cair aqui!
+app.use((err: Error, request: Request, response: Response, next: NextFunction) => { 
     if(err instanceof Error) {
         return response.status(400).json({
             error: err.message
@@ -25,5 +25,4 @@ app.use((err: Error, request: Request, response: Response, next: NextFunction) =
     })
 })
 
-// http://localhost:3000
 app.listen(3000, () => console.log("Server is running"))

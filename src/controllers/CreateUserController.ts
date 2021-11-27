@@ -16,9 +16,3 @@ class CreateUserController {
 }
 
 export { CreateUserController }
-
-/**
- * server -> routes -> Controller -> Service (throw new Error) ----> Repassa
- * exerção para camada acima "Controller"
- * 
- */

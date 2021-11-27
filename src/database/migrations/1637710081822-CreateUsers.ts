@@ -9,7 +9,7 @@ export class CreateUsers1637710081822 implements MigrationInterface {
                     {
                         name: "id",
                         type: "uuid",
-                        isPrimary: true // id primario
+                        isPrimary: true 
                     },
                     {
                         name: "name",
@@ -22,12 +22,12 @@ export class CreateUsers1637710081822 implements MigrationInterface {
                     {
                         name: "admin",
                         type: "boolean",
-                        default: false // Se eu não passar alguma informção para ela, eu quero que eu meu admin seja salvo como falso (a maioria dos users não serão admin)
+                        default: false 
                     },
                     {
                         name: "created_at",
                         type: "timestamp",
-                        default: "now()" // Vai pegar na hora que o nosso objeto for criado
+                        default: "now()" 
                     },
                     {
                         name: "updated_at",

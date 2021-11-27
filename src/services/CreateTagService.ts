@@ -13,8 +13,7 @@ class CreateTagService {
         }
 
 
-        // Select * form where name = "name"
-        const tagAreadyExists = await tagsRepositories.findOne({ // findeOne vai acessar o banco de dados e buscar a tag onde o nome for = name
+        const tagAreadyExists = await tagsRepositories.findOne({ 
             name
         });
 

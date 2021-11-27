@@ -6,7 +6,7 @@ import { v4 as uuid } from "uuid";
 class Tag {
 
     @PrimaryColumn()
-    readonly id: string; // Id gerado pelo construtor
+    readonly id: string; 
 
     @Column()
     name: string;
