@@ -25,3 +25,9 @@
 [ ] Não é permitido cadastrar elogios para usuários inválidos
 
 [ ] O usuário precisa está autenticado na aplicação
+
+___
+
+<br />
+
+> Status do Projeto: Em desenvolvimento ⚠️
