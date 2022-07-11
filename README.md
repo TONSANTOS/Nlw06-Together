@@ -15,7 +15,7 @@
 
 [ x ] Não é permitido cadastrar mais de uma tag com o mesmo nome
 
-[ x ] Não é permitido o casdastro por usuáros que não sejam administradores 
+[ x ] Não é permitido o cadastro por usuáros que não sejam administradores 
 
 
 - Cadastro de elogios 
